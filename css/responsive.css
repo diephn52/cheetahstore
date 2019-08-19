@@ -1,0 +1,472 @@
+@media screen and (max-width: 420px){
+    .shortcut-box {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .popular-box {
+        width: 40%;
+        margin: 3% 1%;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    .col, .col h3 {
+        margin: 0;
+    }
+    .logo a {
+        width: 120px;
+        height: auto;
+        top: 20px;
+        left: 20px;
+    }
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+    .popular {
+        padding: 30px 0;
+    }
+    .popular-nav {
+        margin: -10px auto 30px;
+    }
+    .popular-nav-item h2 {
+        font-size: 14px;
+    }
+    .bottom-col {
+        font-size: 0;
+    }
+    .logo-bottom {
+        width: 120px;
+        height: 22px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .col {
+        width: 23%;
+        max-width: inherit;
+    }
+    .col h3, .col h3 a {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .col ul li a {
+        padding: 5px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .col.social li {
+        width: 40px;
+        height: 40px;
+
+    }
+    .copyright p {
+        font-size: 11px;
+        line-height: 14px;
+        padding: 15px 50px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    .shortcut-box {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 699px){ 
+    .nav-click, .nav-click.show {
+        top: 7px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 720px){ 
+    .popular-col-wrap {
+        white-space: initial;
+        padding: 0;
+    }
+    .popular-box .note, .popular-box-text .price, .popular-box-text h3 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .popular-box-text h3, .popular-box-text h4, .product-text h3, .product-text h4 {
+        margin: 5px 0;
+    }
+    .popular-box-text h4 {
+        font-size: 11px;
+    }
+    .shortcut-box {
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 880px){
+    .popular-box {
+        padding: 20px 0 0;
+    }
+    .popular-box .note {
+        top: 0;
+    }
+}
+@media screen and (max-width: 1000px){
+    .shortcut-box {
+        width: 200px;
+        height: 200px;
+        margin: 1%;
+    }
+    .shortcut-pic {
+        box-shadow: 5px 5px 0 rgba(0,0,0,.2);
+    }
+    .bottom-col {
+        padding: 35px 0 30px;
+    }      
+    .col.social {
+        width: 100%;
+        max-width: inherit;
+    } 
+    .col.social ul {
+        padding: 20px 0 0;
+    }
+    .go-top {
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        transition: none;
+        -webkit-background-size: cover;
+        background-size: cover;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .logo {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 64px;
+        background-color: rgba(0,0,0,1);
+        margin: 0;
+        padding-top: 10px;
+    }
+    .search-box {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0;
+        background-color: rgba(80,80,80,1);
+    }
+    .cart-icon{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 350px;
+        margin: 0;
+    }
+    .navbar-nav{
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0;
+    }
+    
+    .nav-click{
+        opacity: 1;
+    }
+    .nav-click {
+        display: block;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+        opacity: 1;
+    }
+    .nav-click.active:before {
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+    .nav-click.active span {
+        opacity: 0;
+    }
+    .nav-click.active:after {
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+    .header, .header.hide {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 270px;
+        height: 100%;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+        overflow: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        background-color: rgba(0,0,0,1);
+    }
+    .header.active {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        z-index: 1000;
+    }
+    .top {
+        top: 0;
+        left: 0;
+    }
+    .nav li, .navigation, .nav li, .navigation, .top {
+        height: auto;
+        width: 100%;
+    }
+    .logo a, .top {
+        position: absolute;
+    }
+    .header>*, .popup-page>*, .product-nav>*, .provin-page, .top>* {
+        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .hide .nav li, .hide .navigation, .nav li, .navigation, .top {
+        height: auto;
+        width: 100%;
+    }
+    .nav {
+        background-color: transparent;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+        margin-top: 1px;
+    }
+    .nav li {
+        background-color: rgba(80,80,80,1);
+        margin-bottom: 1px;
+        position: relative;
+    }
+    .hide .nav li a, .nav li a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 30px;
+        text-transform: uppercase;
+    }
+    .nav li a {
+        text-align: left;
+    }
+
+    .hide .nav li a, .nav li a, .nav li:not(.current):hover a {
+        background-color: transparent;
+    }
+    .nav li a.has-sub span {
+        position: absolute;
+        right: 0;
+        top: 5px;
+        display: block;
+        width: 50px;
+        height: 40px;
+        background: url(../img/arrow.png) center top no-repeat;
+    }
+    .nav li.actived a.has-sub span {
+        background-position: center bottom;
+    }
+    .nav li.actived a.has-sub {
+        background-color: rgba(0,0,0,.5);
+        color: #fff;
+    }
+    .nav li .sub-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        display: block;
+        height: 0;
+        background-color: transparent;
+        -webkit-transition: height .2s ease-in-out;
+        transition: height .2s ease-in-out;
+    }
+    .sub-menu {
+        box-shadow: none;
+    }
+    .nav li .all-sub {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .nav li .sub-item {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: inherit;
+        text-align: left;
+        margin-top: 1px;
+    }
+    .nav li .sub-item a {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: none;
+        background-color: rgba(255,255,255,1);
+    }
+    .nav li .sub-item img {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+    }
+    .nav li .sub-item span {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+    }
+    .bg-inner span, .sub-menu {
+        display: none;
+    }
+
+    /*  Container   */
+    #container {
+        padding-top: 64px;
+    }
+    .popular {
+        padding: 50px 0;
+    }
+    .news-home-box.on-show, .news-home.on-show .section-title, .on-show .popular-list, .on-show .popular-nav-item h2, .on-show .popular-nav-pic, .on-show .promotion-pic, .on-show .promotion-text, .popular.on-show .section-title, .promotion.on-show .section-title, .shortcut-box.on-show, .shortcut.on-show {
+        -webkit-animation: none;
+        animation: none;
+        -webkit-animation-duration: 0s;
+        animation-duration: 0s;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    .on-show .news-link-wrap, .on-show .promotion-list, .on-show .section-title {
+        -webkit-animation: none;
+        animation: none;
+        -webkit-animation-duration: 0s;
+        animation-duration: 0s;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+    }
+    .about .section .section-box, .about .section-title, .about-title, .bottom-col, .bottom-info, .copyright, .des-product, .discover .section-title, .go-to-list, .group-link .section-box, .group-link .section-title, .history-title, .info-product, .logo-product, .news-events .section-title, .news-home .section-title, .news-home-box, .news-link-wrap, .popular .section-title, .popular-box .note, .popular-list, .popular-nav-item h2, .popular-nav-pic, .product-list .section-title, .product-nav, .promotion .section-title, .promotion-list, .promotion-pic, .promotion-text, .provincial, .section-title, .shortcut, .shortcut-box, .size-product, .slider-nav, .slider-overlay, .stores .section-title {
+        opacity: 1;
+    }
+    .news-home .section-title h1, .popular .section-title h1, .promotion .section-title h1, .section-title h1 {
+        font-size: 30px;
+        line-height: 34px;
+        top: -20px;
+    }
+    /*  Popular item  */
+    .popular-list {
+        width: 100%;
+    }
+    .popular-nav-item h2 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .popular-nav-pic {
+        padding: 30px 5% 0;
+    }
+    .popular-box {
+        padding: 35px 20px 20px;
+        -webkit-transition: none;
+        transition: none;
+    }
+    .popular-box-pic, .popular-box-text {
+        padding: 0;
+    }
+    .popular-box-pic img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .popular-box-text .price, .popular-box-text h3 {
+        font-size: 13px;
+    }
+    .popular-box-text h4 {
+        font-size: 12px;
+    }
+    .popular-arrow {
+        width: 40px;
+        height: 20px;
+        margin-left: -20px;
+        bottom: -20px;
+    }
+
+    /*   Shortcut box   */
+    .shortcut .section-box {
+        width: 90%;
+    }
+    .shortcut-pic {
+        transition: none;
+        -webkit-transition: none;
+    }
+    /*  Footer   */
+    .col ul li a, .col.social li a {
+        -webkit-transition: none;
+        transition: none;
+    }
+    .go-top, .next-pic {
+        right: 10px;
+    }
+    .go-top, .zoom {
+        -webkit-transition: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    /*   Shortcut box   */
+    .shortcut-box {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+    /*  Footer   */
+    .col {
+        max-width: 140px;
+    }
+    .col.social {
+        max-width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width: 1400px){
+    .news-home .section-title h1, .popular .section-title h1, .promotion .section-title h1 {
+        font-size: 34px;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .popular-nav {
+        margin: -20px auto 40px;
+    }
+    .popular-nav-item {
+        max-width: 300px;
+    }
+    .popular-box {
+        max-width: 220px;
+        margin: .5%;
+    }
+    .sub-item img {
+        height: 80px;
+    }
+    /*   Shortcut box   */
+    .shortcut-box {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+
